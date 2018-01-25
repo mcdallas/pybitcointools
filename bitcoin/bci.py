@@ -11,6 +11,7 @@ try:
 except:
     from urllib2 import build_opener
 
+basestring = str
 
 # Makes a request to a given URL (first arg) and optional params (second arg)
 def make_request(*args):
